@@ -26,11 +26,18 @@ class DetailsForm extends FormBase{
 				'#title' => t('Candidate LastName:'),
 				'#required' => TRUE,
 			);
-			$form['candidate_email'] = array(
+			$form['candidate_address'] = array(
 				'#type' => 'textfield',
-				'#title' => t('Candidate email:'),
+				'#title' => t('Candidate Address:'),
 				'#required' => TRUE,
 			);
+
+			$form['actions']['#type'] = 'actions';
+			$form['actions']['submit'] = [
+				'#type' => 'submit',
+				'#value' => t('Save'),
+				'#button_type' => 'primary',
+			];
 
 			return $form;
 		}

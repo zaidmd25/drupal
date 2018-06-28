@@ -800,4 +800,4 @@ $databases['default']['default'] = array (
 );
 $settings['install_profile'] = 'standard';
 $config_directories['sync'] = 'sites/default/files/config_CDDCaqpiHZf_y9eW9iDoKbYjqt6DDRbnAR8nSMFMvy-1N7ruesIaI4qr0B9R1DVYviGP65Ob4Q/sync';
-$config['system.logging']['error_level'] = 'verbose';
+// $config['system.logging']['error_level'] = 'verbose';
