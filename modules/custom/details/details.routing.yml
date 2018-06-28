@@ -1,0 +1,7 @@
+details.form:
+ path: '/submit-form'
+ defaults:
+   _title: 'Application form'
+   _form: '\Drupal\details\Form\DetailsForm'
+ requirements:
+   _permission: 'access content'
